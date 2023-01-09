@@ -11,6 +11,10 @@
 		3184799C296C33A800A48A5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3184799B296C33A800A48A5F /* ContentView.swift */; };
 		3184799E296C33A900A48A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3184799D296C33A900A48A5F /* Assets.xcassets */; };
 		318479A1296C33A900A48A5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318479A0296C33A900A48A5F /* Preview Assets.xcassets */; };
+		318479AB296C33DF00A48A5F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318479AA296C33DF00A48A5F /* User.swift */; };
+		318479AD296C341100A48A5F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318479AC296C341100A48A5F /* ViewModel.swift */; };
+		318479AF296C347D00A48A5F /* StackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318479AE296C347D00A48A5F /* StackCardView.swift */; };
+		318479B1296C35F700A48A5F /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318479B0296C35F700A48A5F /* SampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		3184799B296C33A800A48A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3184799D296C33A900A48A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318479A0296C33A900A48A5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		318479AA296C33DF00A48A5F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		318479AC296C341100A48A5F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		318479AE296C347D00A48A5F /* StackCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCardView.swift; sourceTree = "<group>"; };
+		318479B0296C35F700A48A5F /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		31847998296C33A800A48A5F /* TinderLikeUIExample */ = {
 			isa = PBXGroup;
 			children = (
+				318479A9296C33CB00A48A5F /* ViewModel */,
+				318479A8296C33BE00A48A5F /* Model */,
+				318479A7296C33B500A48A5F /* View */,
 				31847999296C33A800A48A5F /* TinderLikeUIExampleApp.swift */,
 				3184799B296C33A800A48A5F /* ContentView.swift */,
 				3184799D296C33A900A48A5F /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				318479A0296C33A900A48A5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		318479A7296C33B500A48A5F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				318479AE296C347D00A48A5F /* StackCardView.swift */,
+				318479B0296C35F700A48A5F /* SampleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		318479A8296C33BE00A48A5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				318479AA296C33DF00A48A5F /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		318479A9296C33CB00A48A5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				318479AC296C341100A48A5F /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3184799C296C33A800A48A5F /* ContentView.swift in Sources */,
+				318479AF296C347D00A48A5F /* StackCardView.swift in Sources */,
 				3184799A296C33A800A48A5F /* TinderLikeUIExampleApp.swift in Sources */,
+				318479AD296C341100A48A5F /* ViewModel.swift in Sources */,
+				318479B1296C35F700A48A5F /* SampleView.swift in Sources */,
+				318479AB296C33DF00A48A5F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
